@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
-    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/Views/CSS/signUp.css">
 </head>
 <body>
     <header class="header">
         <h1>PROPERTY RENT PLATFORM</h1>
         <nav class="nav">
             <ul>
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="SignIN.jsp">SIGN IN</a></li>
+                <li><a href="${pageContext.request.contextPath}/index.html">HOME</a></li>
+                <li><a href="LoginController">SIGN IN</a></li>
             </ul>
         </nav>
     </header>
